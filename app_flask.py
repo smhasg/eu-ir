@@ -120,7 +120,7 @@ def dates():
 @app.route("/run-cache", methods=["POST"])
 def run_cache():
     try:
-        exe_path = os.path.join(os.path.dirname(__file__), "cache_manager.exe")
+        exe_path = os.path.join(os.path.curdir, "cache_manager.exe")
 
         subprocess.Popen(
             exe_path,
