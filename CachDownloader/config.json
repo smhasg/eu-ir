@@ -1,7 +1,0 @@
-{
-  "host": "127.0.0.1",
-  "port": 8080,
-  "debug": false,
-  "cache_file": "eur_history.json",
-  "start_year": 2025
-}

@@ -1,9 +1,0 @@
-.gitignore
-__pycache__/
-build/*
-build/ 
-build
-*.spec 
-dist/BOOM_eur_history.json
-dist/cache_manager.exe
-build/ 
